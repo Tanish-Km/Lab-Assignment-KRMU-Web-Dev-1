@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wanderlust Travel Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <div class="page" id="top">
+    <header id="header">
+      <div class="wrapper">
+        <nav class="nav">
+          <div class="logo">
+            <div class="logo-mark">W</div>
+            Wanderlust
+          </div>
+
+          <button class="nav-toggle" id="navToggle">☰</button>
+
+          <div class="nav-links">
+            <a href="#destinations">Destinations</a>
+            <a href="#packages">Packages</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <button class="nav-cta" onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">
+            Start Your Journey
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Subject -->
+      <section class="Subject">
+        <div class="wrapper Subject-grid">
+          <div>
+            <div class="Subject-kicker">
+              <span class="badge">Trusted by 5K+ travelers</span>
+              Handcrafted itineraries
+            </div>
+            <h1>Explore the World with Wanderlust</h1>
+            <p>
+              Your adventure starts here. Discover breathtaking destinations,
+              curated tours and unforgettable experiences — all in one place.
+            </p>
+
+            <div class="Subject-actions">
+              <button class="btn-primary" onclick="document.querySelector('#packages').scrollIntoView({behavior:'smooth'})">
+                Start Your Journey
+              </button>
+              <button class="btn-outline" onclick="document.querySelector('#how-it-works').scrollIntoView({behavior:'smooth'})">
+                How it works
+              </button>
+            </div>
+
+            <div class="Subject-meta">
+              <div>
+                <strong>20+</strong>
+                Cities served
+              </div>
+              <div>
+                <strong>5K+</strong>
+                Happy travelers
+              </div>
+              <div>
+                <strong>10</strong>
+                Years of experience
+              </div>
+            </div>
+          </div>
+
+          <div class="Subject-visual">
+            <div class="Subject-card">
+              <div class="Subject-card-top">
+                <div>
+                  <h2>Upcoming getaways</h2>
+                  <p>Handpicked trips leaving in the next 30 days.</p>
+                </div>
+                <div class="Subject-chip">
+                  <span class="Subject-chip-dot"></span>
+                  Live spots left
+                </div>
+              </div>
+
+              <div class="Subject-trip-list">
+                <div class="trip-card">
+                  <div class="trip-title">
+                    <span>Maldives Escape</span>
+                    <span>$1,499</span>
+                  </div>
+                  <div class="trip-meta">
+                    7 days • Beach • Snorkeling
+                  </div>
+                </div>
+
+                <div class="trip-card">
+                  <div class="trip-title">
+                    <span>Paris Discovery</span>
+                    <span>$1,199</span>
+                  </div>
+                  <div class="trip-meta">
+                    5 days • Culture • City lights
+                  </div>
+                </div>
+
+                <div class="trip-card">
+                  <div class="trip-title">
+                    <span>Bali Adventure</span>
+                    <span>$999</span>
+                  </div>
+                  <div class="trip-meta">
+                    6 days • Temples • Rice terraces
+                  </div>
+                </div>
+
+                <div class="trip-card">
+                  <div class="trip-title">
+                    <span>New York Explorer</span>
+                    <span>$1,299</span>
+                  </div>
+                  <div class="trip-meta">
+                    5 days • Broadway • Skylines
+                  </div>
+                </div>
+              </div>
+
+              <div class="Subject-stats-badge">
+                <div>
+                  <strong>4.9</strong>
+                  / 5
+                </div>
+                <div>Average trip rating</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Destinations -->
+      <section id="destinations">
+        <div class="wrapper">
+          <div class="section-heading">
+            <h2>Popular Destinations</h2>
+            <p>
+              Escape to pristine beaches, vibrant cities and tropical hideaways
+              with our most-loved destinations.
+            </p>
+          </div>
+
+          <div class="destinations-grid">
+            <article class="destination-card">
+              <div class="destination-image"
+                style="background-image: url('https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=800');">
+              </div>
+              <div class="destination-content">
+                <div class="destination-tag">
+                  ✈️ Island Escape
+                </div>
+                <div class="destination-name">Maldives</div>
+                <div class="destination-desc">
+                  Crystal clear waters and white sandy beaches.
+                </div>
+              </div>
+            </article>
+
+            <article class="destination-card">
+              <div class="destination-image"
+                style="background-image: url('https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&w=800');">
+              </div>
+              <div class="destination-content">
+                <div class="destination-tag">
+                  🗼 City of Lights
+                </div>
+                <div class="destination-name">Paris</div>
+                <div class="destination-desc">
+                  The city of lights and romance awaits you.
+                </div>
+              </div>
+            </article>
+
+            <article class="destination-card">
+              <div class="destination-image"
+                style="background-image: url('https://images.pexels.com/photos/2082109/pexels-photo-2082109.jpeg?auto=compress&cs=tinysrgb&w=800');">
+              </div>
+              <div class="destination-content">
+                <div class="destination-tag">
+                  🌴 Tropical Vibes
+                </div>
+                <div class="destination-name">Bali</div>
+                <div class="destination-desc">
+                  Experience the magic of tropical paradise.
+                </div>
+              </div>
+            </article>
+
+            <article class="destination-card">
+              <div class="destination-image"
+                style="background-image: url('https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&w=800');">
+              </div>
+              <div class="destination-content">
+                <div class="destination-tag">
+                  🌆 Urban Energy
+                </div>
+                <div class="destination-name">New York</div>
+                <div class="destination-desc">
+                  The city that never sleeps, full of wonders.
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Packages -->
+      <section id="packages">
+        <div class="wrapper">
+          <div class="section-heading">
+            <h2>Tour Packages</h2>
+            <p>
+              Handpicked itineraries with stays, transfers and experiences
+              included — no hidden surprises.
+            </p>
+          </div>
+
+          <div class="packages-grid">
+            <article class="package-card">
+              <div class="package-title">Maldives Escape</div>
+              <div class="package-meta">
+                Luxury resort • Snorkeling • Island hopping
+              </div>
+              <div class="package-price">
+                <strong>$1,499</strong>
+                <span>7 Days / 6 Nights</span>
+              </div>
+              <button>Book Now</button>
+            </article>
+
+            <article class="package-card">
+              <div class="package-title">Paris Discovery</div>
+              <div class="package-meta">
+                Eiffel Tower • Louvre • Seine cruise
+              </div>
+              <div class="package-price">
+                <strong>$1,199</strong>
+                <span>5 Days / 4 Nights</span>
+              </div>
+              <button>Book Now</button>
+            </article>
+
+            <article class="package-card">
+              <div class="package-title">Bali Adventure</div>
+              <div class="package-meta">
+                Temples • Rice terraces • Beaches
+              </div>
+              <div class="package-price">
+                <strong>$999</strong>
+                <span>6 Days / 5 Nights</span>
+              </div>
+              <button>Book Now</button>
+            </article>
+
+            <article class="package-card">
+              <div class="package-title">New York Explorer</div>
+              <div class="package-meta">
+                Statue of Liberty • Broadway • Museums
+              </div>
+              <div class="package-price">
+                <strong>$1,299</strong>
+                <span>5 Days / 4 Nights</span>
+              </div>
+              <button>Book Now</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section id="how-it-works">
+        <div class="wrapper">
+          <div class="section-heading">
+            <h2>How It Works</h2>
+            <p>
+              Plan and book your dream vacation in three simple steps — we take
+              care of all the details.
+            </p>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card">
+              <div class="step-number">1</div>
+              <h3>Choose Destination</h3>
+              <p>
+                Browse our curated list of destinations and pick your dream
+                trip, tailored to your interests.
+              </p>
+            </article>
+
+            <article class="step-card">
+              <div class="step-number">2</div>
+              <h3>Book Your Tour</h3>
+              <p>
+                Reserve your spot easily with our secure online booking system
+                and transparent pricing.
+              </p>
+            </article>
+
+            <article class="step-card">
+              <div class="step-number">3</div>
+              <h3>Enjoy &amp; Explore</h3>
+              <p>
+                Pack your bags and get ready for an unforgettable adventure —
+                we handle the rest.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section id="testimonials">
+        <div class="wrapper">
+          <div class="section-heading">
+            <h2>Traveler Testimonials</h2>
+            <p>
+              Real stories from travelers who trusted Wanderlust with their
+              once-in-a-lifetime journeys.
+            </p>
+          </div>
+
+          <div class="testimonials-grid">
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="avatar"></div>
+                <div>
+                  <div class="testimonial-name">Emily R.</div>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                “Wanderlust made my honeymoon in Maldives absolutely magical.
+                Everything was perfectly organized!”
+              </p>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="avatar"></div>
+                <div>
+                  <div class="testimonial-name">James T.</div>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                “The Paris tour was a dream come true. The guide, hotels and
+                activities were all top-notch.”
+              </p>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="avatar"></div>
+                <div>
+                  <div class="testimonial-name">Sophia L.</div>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                “Bali was breathtaking and the team was so friendly and helpful.
+                I’ll definitely book again!”
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog -->
+      <section id="blog">
+        <div class="wrapper">
+          <div class="section-heading">
+            <h2>Travel Blog</h2>
+            <p>
+              Inspiration, guides and tips from our travel experts to help you
+              plan your next getaway.
+            </p>
+          </div>
+
+          <div class="blog-grid">
+            <article class="blog-card">
+              <div class="blog-image"
+                style="background-image:url('https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=800');">
+              </div>
+              <div class="blog-content">
+                <h3>Top 10 Beaches to Visit in 2024</h3>
+                <p>
+                  Discover the most stunning beaches around the globe for your
+                  next sun-soaked escape.
+                </p>
+                <div class="blog-link">Read More →</div>
+              </div>
+            </article>
+
+            <article class="blog-card">
+              <div class="blog-image"
+                style="background-image:url('https://images.pexels.com/photos/21014/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800');">
+              </div>
+              <div class="blog-content">
+                <h3>How to Travel on a Budget</h3>
+                <p>
+                  Tips and tricks to make the most of your adventures without
+                  breaking the bank.
+                </p>
+                <div class="blog-link">Read More →</div>
+              </div>
+            </article>
+
+            <article class="blog-card">
+              <div class="blog-image"
+                style="background-image:url('https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=800');">
+              </div>
+              <div class="blog-content">
+                <h3>Must-Try Foods Around the World</h3>
+                <p>
+                  Embark on a culinary journey and savor flavors from every
+                  continent.
+                </p>
+                <div class="blog-link">Read More →</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats band -->
+      <section>
+        <div class="wrapper">
+          <div class="stats-band">
+            <div class="stats-item">
+              <strong>20+</strong>
+              <span>Cities Served</span>
+            </div>
+            <div class="stats-item">
+              <strong>5K+</strong>
+              <span>Happy Travelers</span>
+            </div>
+            <div class="stats-item">
+              <strong>50+</strong>
+              <span>Tour Packages</span>
+            </div>
+            <div class="stats-item">
+              <strong>10</strong>
+              <span>Years Experience</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter + Contact -->
+      <section id="contact">
+        <div class="wrapper">
+          <div class="bottom-grid">
+            <div class="newsletter-card">
+              <h3>Subscribe to Our Newsletter</h3>
+              <p>
+                Get exclusive deals and travel tips delivered straight to your
+                inbox every month.
+              </p>
+              <form class="newsletter-form" onsubmit="event.preventDefault();">
+                <input type="email" placeholder="Enter your email address" required />
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+
+            <div class="contact-card">
+              <h3>Contact Us</h3>
+              <form onsubmit="event.preventDefault();">
+                <label>
+                  Name
+                  <input type="text" placeholder="Your full name" required />
+                </label>
+                <label>
+                  Email
+                  <input type="email" placeholder="you@example.com" required />
+                </label>
+                <label class="full">
+                  Subject
+                  <input type="text" placeholder="How can we help?" />
+                </label>
+                <label class="full">
+                  Message
+                  <textarea placeholder="Tell us about your travel plans"></textarea>
+                </label>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="wrapper">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo">
+              <div class="logo-mark">W</div>
+              Wanderlust
+            </div>
+            <p>
+              Wanderlust Travel Agency curates immersive journeys and
+              unforgettable memories across the globe.
+            </p>
+          </div>
+
+          <div>
+            <div class="footer-heading">Wanderlust</div>
+            <div class="footer-links">
+              <a href="#top">About Us</a>
+              <a href="#top">Our Team</a>
+              <a href="#top">Careers</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="footer-heading">Destinations</div>
+            <div class="footer-links">
+              <a href="#destinations">Maldives</a>
+              <a href="#destinations">Paris</a>
+              <a href="#destinations">Bali</a>
+              <a href="#destinations">New York</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="footer-heading">Support</div>
+            <div class="footer-links">
+              <a href="#contact">FAQs</a>
+              <a href="#contact">Contact</a>
+              <a href="#top">Terms &amp; Conditions</a>
+              <a href="#top">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-meta">
+          © 2024 Wanderlust Travel Agency. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  
+</body>
+</html>
